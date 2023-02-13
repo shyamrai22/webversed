@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#head01{
+    display:flex;
+
+}
+header div h1{
+    margin-top: 0.6rem;
+    color: white;
+    margin-left: 0.5rem;
+}
+header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+#head02,#head03{
+    margin-top: 1.3rem;
+}
+#head02 a{
+    text-decoration: none;
+    color: white;
+    margin-right: 2rem;
+}
+#head03 a{
+    text-decoration: none;
+    color: white;
+    border: solid 2px white;
+    padding:6px ;
+    border-radius: 6px 6px 6px;
+}
+#head02 a:hover{
+    color: rgb(152, 0, 152);
+    transition: 1s;
+}
+#head03 a:hover{
+    color: rgb(152, 0, 152);
+    transition: 1s;
+}
+.images{
+    border: solid 2px black;
+    border-radius: 6px 6px 6px;
+}
+section{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 5px;
+    margin-top: 1px;
+}
+footer{
+    background-color: black;
+    height: 150px;
+}
+#foot01 ul{
+    list-style: none;
+    color: white;
+}
+
